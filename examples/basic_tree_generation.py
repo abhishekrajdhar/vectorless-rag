@@ -1,26 +1,3 @@
-"""
-Example 01: Basic Tree Generation from PDF (Self-Hosted)
-=========================================================
-
-This is the foundational example. PageIndex transforms a PDF into a
-hierarchical tree-structured index — replacing vector embeddings entirely.
-
-What you'll learn:
-- How to generate a tree index from a PDF locally using OpenAI
-- How the tree structure maps to the document's logical sections
-- How to inspect, visualize, and save the tree
-
-How it works:
-1. PageIndex reads the PDF and extracts text page by page
-2. It scans the first N pages looking for a Table of Contents
-3. If found, it maps TOC entries to physical page numbers
-4. If not found, it asks the LLM to generate a hierarchical structure
-5. It verifies page mappings and recursively splits large sections
-6. Optionally generates summaries for each node
-
-Cost: ~$0.05-0.50 depending on document size (OpenAI API calls)
-"""
-
 import sys
 import os
 
