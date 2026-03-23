@@ -50,7 +50,7 @@ async def generate_tree(md_path: str, with_thinning: bool = False):
 
 
 def main():
-    print_header("Example 02: Tree Generation from Markdown (Self-Hosted)")
+    print_header("Tree Generation from Markdown (Self-Hosted)")
 
     get_openai_key()
     console.print("[green]OpenAI API key found.[/green]")

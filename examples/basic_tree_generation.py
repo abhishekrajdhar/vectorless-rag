@@ -21,7 +21,7 @@ from pageindex.utils import print_toc, structure_to_list
 
 
 def main():
-    print_header("Example 01: Basic Tree Generation from PDF (Self-Hosted)")
+    print_header("Basic Tree Generation from PDF (Self-Hosted)")
 
     # Verify OpenAI key is available
     get_openai_key()
